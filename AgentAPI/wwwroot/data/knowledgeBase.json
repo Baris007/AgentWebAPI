@@ -1,0 +1,17 @@
+[
+  {
+    "id": "grip",
+    "text": "Grip, influenza virüsünün neden olduğu bulaşıcı bir hastalıktır.",
+    "embedding": [0.12, 0.34, 0.56, 0.78, 0.91]
+  },
+  {
+    "id": "vitamin-d",
+    "text": "D vitamini, güneş ışığıyla sentezlenir ve bağışıklık sistemini destekler.",
+    "embedding": [0.11, 0.33, 0.55, 0.77, 0.99]
+  },
+  {
+    "id": "ates",
+    "text": "Ateş, vücudun enfeksiyona karşı verdiği yaygın bir tepkidir.",
+    "embedding": [0.13, 0.31, 0.44, 0.68, 0.88]
+  }
+]
