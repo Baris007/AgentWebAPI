@@ -15,10 +15,10 @@ namespace AgentAPI.Services
 
 		public async Task<string> RetrieveRelevantContextAsync(string query)
 		{
-			// Burada basit bir manuel embedding yapalım (örnek: kelime sayısı)
+			
 			var queryVec = ManualEmbed(query);
 
-			// En yakın vektörü bul
+			
 			var top = _knowledge
 				.Select(item => new
 				{
@@ -33,7 +33,7 @@ namespace AgentAPI.Services
 
 		private float[] ManualEmbed(string input)
 		{
-			// Çok basit bir örnek: karakter sayısı üzerinden 3 boyutlu vektör
+			
 			return new float[]
 			{
 				input.Length,
